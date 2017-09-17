@@ -1,0 +1,46 @@
+@import menusass
+
+@keyframes fadein
+	0%
+		opacity: 0
+	100%
+		opacity: 1
+
+body, html
+	margin: 0
+	padding: 0
+	background: #F0F0F0
+	animation: fadein 0.75s
+	font-size: 100%
+
+.welcomepg
+	display: flex
+	flex-direction: column
+	justify-content: flex-start
+	align-items: center
+	height: 150vh
+	width: 100vw
+
+.topbanner
+	display: flex
+	flex-direction: row
+	justify-content: center
+	align-items: center
+	width: 100vw
+	height: 30vh
+
+.tbimage
+	height: 25vh
+	transition: all 0.2s
+	&:hover
+		background: #FF0000
+		scale: 1.5
+.blurb
+	display: flex
+	flex-direction: row
+	justify-content: center
+	align-items: center
+
+.welcometext
+	width: 90vw
+	font-family: Arial, Helvetica, sans-serif

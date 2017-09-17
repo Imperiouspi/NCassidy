@@ -1,0 +1,90 @@
+$menuheight: 100px
+
+//src: http://coderesponsible.com/useful-sass-mixins/
+=linearGradient($top, $bottom)
+	background: $top; /* Old browsers */
+	background: -moz-linear-gradient(top,  $top 0%, $bottom 100%) /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)) /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%) /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  $top 0%,$bottom 100%) /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  $top 0%,$bottom 100%) /* IE10+ */
+	background: linear-gradient(to bottom,  $top 0%,$bottom 100%) /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ) /* IE6-9 */
+
+
+.topMenu
+	position: fixed
+	display: flex
+	flex-direction: row
+	align-items: center
+	justify-content: flex-start
+	background: #254170
+	height: 100% $menuheight
+	width: 100vw
+
+.logo
+	background: #444444
+	display: flex
+	align-items: center
+	justify-content: center
+	width: 150px
+	height: 100% $menuheight
+
+.home
+	display: flex
+	align-items: center
+	justify-content: center
+	width: 150px
+	height: 100px
+	position: fixed
+	a
+		color: #FFFFFF
+		font-size: 40px
+	background-color: rgba(0,0,0,0)
+	opacity: 0
+	transition: all 0.2s
+	&:hover
+		background-color: rgba(0,0,0,0.5)
+		opacity: 1
+
+.profileimg
+	width: 150px
+	height: 100px
+
+#MenuInfo
+	color: #FFFFFF
+	padding: 10px
+	line-height: 20px
+#name
+	text-decoration: underline
+
+#menu
+	display: flex
+	flex-direction: row
+	justify-content: flex-start
+	align-items: center
+	width: 360px
+	height: 100px
+
+.menuItem
+	margin: 5px
+	background: #444444
+	color: #FFFFFF
+	display: flex
+	align-items: center
+	justify-content: center
+	height: 50px
+	width: 100px
+	a
+		color: #FFFFFF
+		text-decoration: none
+	transition: all 0.2s
+	&:hover
+		background: #efab34
+		/*+linearGradient(#444444, #efab34)*/
+		a
+			font-weight: bold
+			letter-spacing: 0.2px
+
+#buffer
+	height: 100px
