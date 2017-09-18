@@ -1,7 +1,7 @@
 import React from 'react'
 import  {Switch, Route} from 'react-router-dom'
 
-import Menu from './Menu'
+import Menu from './Menu/Menu'
 import Content from './Content'
 
 //TODO: write mobile formatting

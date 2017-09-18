@@ -2,7 +2,7 @@ $menuheight: 100px
 
 //src: http://coderesponsible.com/useful-sass-mixins/
 =linearGradient($top, $bottom)
-	background: $top; /* Old browsers */
+	background: $top /* Old browsers */
 	background: -moz-linear-gradient(top,  $top 0%, $bottom 100%) /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$top), color-stop(100%,$bottom)) /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top,  $top 0%,$bottom 100%) /* Chrome10+,Safari5.1+ */
@@ -11,6 +11,18 @@ $menuheight: 100px
 	background: linear-gradient(to bottom,  $top 0%,$bottom 100%) /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ) /* IE6-9 */
 
+//src: https://codepen.io/codybonney/pen/qsGkA
+=bottomRadialGradient($from, $to)
+	background: -moz-radial-gradient(bottom, circle cover, $from 0%, $to 75%)
+	background: -webkit-gradient(radial, bottom bottom, 0px, bottom bottom, 75%, color-stop(0%, $from), color-stop(75%, $to))
+	background: -webkit-radial-gradient(bottom, circle cover, $from 0%, $to 75%)
+	background: -o-radial-gradient(bottom, circle cover, $from 0%, $to 75%)
+	background: -ms-radial-gradient(bottom, circle cover, $from 0%, $to 75%)
+	background: radial-gradient(bottom, circle cover, $from 0%, $to 75%)
+	background-color: $from
+
+=popup()
+	transform: translate(0,100)
 
 .topMenu
 	position: fixed
@@ -59,6 +71,7 @@ $menuheight: 100px
 	text-decoration: underline
 
 #menu
+	position: static
 	display: flex
 	flex-direction: row
 	justify-content: flex-start
@@ -67,6 +80,7 @@ $menuheight: 100px
 	height: 100px
 
 .menuItem
+	position: static
 	margin: 5px
 	background: #444444
 	color: #FFFFFF
@@ -78,13 +92,27 @@ $menuheight: 100px
 	a
 		color: #FFFFFF
 		text-decoration: none
-	transition: all 0.2s
+	transition: all 2s
 	&:hover
-		background: #efab34
-		/*+linearGradient(#444444, #efab34)*/
+		//background: #efab34
+		.circle
+			opacity: 0.7
 		a
 			font-weight: bold
 			letter-spacing: 0.2px
+
+.circle
+	position: absolute
+	top: 1
+	+bottomRadialGradient(#efab34, #444444)
+	width: 100px
+	height: 50px
+	opacity: 0
+	transition: all 0.2s
+
+.menuLink
+	position: absolute
+	z-index: 10
 
 #buffer
 	height: 100px

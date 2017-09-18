@@ -9,7 +9,7 @@ export default class WelcomePage extends React.Component{
 	}
 	render(){
 		return(
-			<div className="welcomepg">
+			<div className='page' id="welcomepg">
 				<TopBanner/>
 				<div className="blurb">
 					<WelcomeText/>

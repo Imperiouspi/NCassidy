@@ -1,10 +1,10 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import Welcome from './Welcome'
-import About from './About'
-import Code from './Code'
-import Music from './Music'
-import School from './School'
+import Welcome from './Home/Welcome'
+import About from './About/About'
+import Code from './Code/Code'
+import Music from './Music/Music'
+import School from './School/School'
 
 const Content = () => (
 	<div>

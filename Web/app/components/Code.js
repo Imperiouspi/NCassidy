@@ -4,9 +4,12 @@ export default class Code extends React.Component{
 	constructor(props) {
 		super(props);
 	}
+
 	render(){
 		return(
-			<h1></h1>
+			//Title Box
+			//Project Display
+			<a href="https://github.com/Imperiouspi/NCassidy">Source</a>
 		)
 	}
 }
