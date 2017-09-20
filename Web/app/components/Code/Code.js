@@ -9,16 +9,12 @@ export default class Code extends React.Component{
 		super(props);
 	}
 
-	desc = [
-		'this is a description'
-	]
-
 	render(){
 		return(
 			<div className='page' id='codepage'>
 				<CodeTitle/>
 				<div id="ExampleProjects">
-					<CodeExample name='This Site' description={desc[0]}/>
+					<CodeExample name='This Site' description='blah'/>
 					<CodeExample name='Counting Digits'/>
 					<CodeExample name='Complex-Life'/>
 				</div>
