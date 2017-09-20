@@ -1,0 +1,35 @@
+//src: http://coderesponsible.com/useful-sass-mixins/
+@mixin linearGradient($top, $bottom) {
+	background: $top;
+	background: -moz-linear-gradient(top, $top 0%, $bottom 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $top), color-stop(100%, $bottom));
+	background: -webkit-linear-gradient(top, $top 0%, $bottom 100%);
+	background: -o-linear-gradient(top, $top 0%, $bottom 100%);
+	background: -ms-linear-gradient(top, $top 0%, $bottom 100%);
+	background: linear-gradient(to bottom, $top 0%, $bottom 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+
+//src: https://codepen.io/codybonney/pen/qsGkA
+@mixin bottomRadialGradient($from, $to, $percent) {
+	background: -moz-radial-gradient(bottom, ellipse farthest-side, $from 0%, $to $percent);
+	background: -webkit-gradient(radial, ellipse farthest-side, bottom bottom, 0px, bottom bottom, $percent, color-stop(0%, $from), color-stop($percent, $to));
+	background: -webkit-radial-gradient(bottom, ellipse farthest-side, $from 0%, $to $percent);
+	background: -o-radial-gradient(bottom, ellipse farthest-side, $from 0%, $to $percent);
+	background: -ms-radial-gradient(bottom, ellipse farthest-side, $from 0%, $to $percent);
+	background: radial-gradient(bottom, ellipse farthest-side, $from 0%, $to $percent);
+	background-color: $from;
+}
+
+//https://gist.github.com/garyharan/957284/fa9366f955d07671112c32510bfd9a1f141bc38a
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}

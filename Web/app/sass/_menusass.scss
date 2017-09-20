@@ -1,0 +1,123 @@
+.topMenu {
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	background: #254170;
+	height: 100px;
+	width: 100vw;
+	@include box-shadow(0, 0px, 15px, #000000);
+}
+
+.logo {
+	background: #444444;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 100px;
+}
+
+.home {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 100px;
+	position: fixed;
+
+	a {
+		color: #FFFFFF;
+		font-size: 40px;
+	}
+
+	background-color: rgba(0, 0, 0, 0);
+	opacity: 0;
+	transition: all 0.5s;
+
+	&:hover {
+		transition: all 0.3s;
+		background-color: rgba(0, 0, 0, 0.5);
+		opacity: 1;
+	}
+}
+
+.profileimg {
+	height: 100px;
+}
+
+#MenuInfo {
+	color: #FFFFFF;
+	padding: 10px;
+	line-height: 20px;
+}
+
+#divider{
+	background-color: #FFFFFF;
+	width: 2px;
+	height: 100%;
+}
+
+#name {
+	text-decoration: underline;
+}
+
+#menu {
+	position: static;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 360px;
+	height: 100px;
+}
+
+.menuItem {
+	position: static;
+	margin: 5px;
+	background: #444444;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 100px;
+
+	a {
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+
+	&:hover {
+		.circle {
+			transition: opacity 0.3s;
+			opacity: 0.75;
+		}
+
+		/*a
+		 * font-weight: bold
+		 * letter-spacing: 0.2px */
+	}
+}
+
+.circle {
+	position: absolute;
+	bottom: 25px;
+
+	@include bottomRadialGradient(#efab34, #444444, 100%);
+
+	width: 100px;
+	height: 15px;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.menuLink {
+	position: absolute;
+	z-index: 10;
+}
+
+#buffer {
+	height: 100px;
+}

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {HashRouter as Router, Route} from 'react-router-dom'
 import App from './components/App'
 
-require('./sass/ncassidysass.sass');
+require('./sass/ncassidysass.scss');
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 

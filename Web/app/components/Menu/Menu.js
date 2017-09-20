@@ -13,6 +13,7 @@ export default class Menu extends React.Component{
 			<div className="topMenu">
 				<Logo/>
 				<MenuInfo/>
+				<div id='divider'/>
 				<div id="menu">
 					<MenuItem label='About'/>
 					<MenuItem label='Code'/>
