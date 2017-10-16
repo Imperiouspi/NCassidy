@@ -7,11 +7,8 @@ export default class MenuItem extends React.Component{
 	}
 	render(){
 		return(
-			<div>
-				<div className="menuItem">
-					<div className="circle"/>
-					<Link to={"/" + this.props.label} className='menuLink'>{this.props.label}</Link>
-				</div>
+			<div className="menuItem">
+				<Link to={"/" + this.props.label} className='menuLink'>{this.props.label}</Link>
 			</div>
 		)
 	}
