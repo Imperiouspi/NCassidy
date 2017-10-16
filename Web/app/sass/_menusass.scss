@@ -71,7 +71,8 @@
 	height: 100px;
 }
 
-.menuItem {
+.menuItem a {
+	display: block;
 	position: static;
 	margin: 5px;
 	background: #444444;
@@ -81,14 +82,22 @@
 	justify-content: center;
 	height: 50px;
 	width: 100px;
+	text-decoration: none;
 
-	a {
-		color: #FFFFFF;
-		text-decoration: none;
+	::before {
+		position: absolute;
+		bottom: 25px;
+
+		@include bottomRadialGradient(#efab34, #444444, 100%);
+
+		width: 100px;
+		height: 15px;
+		opacity: 0;
+		transition: all 0.5s;
 	}
 
 	&:hover {
-		.circle {
+		::before {
 			transition: opacity 0.3s;
 			opacity: 0.75;
 		}
@@ -97,18 +106,6 @@
 		 * font-weight: bold
 		 * letter-spacing: 0.2px */
 	}
-}
-
-.circle {
-	position: absolute;
-	bottom: 25px;
-
-	@include bottomRadialGradient(#efab34, #444444, 100%);
-
-	width: 100px;
-	height: 15px;
-	opacity: 0;
-	transition: all 0.5s;
 }
 
 .menuLink {
