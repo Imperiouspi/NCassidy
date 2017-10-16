@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default class CodeExample extends React.Component{
 	constructor(props) {
@@ -12,7 +12,6 @@ export default class CodeExample extends React.Component{
 					{this.props.name}
 				</div>
 				<div className="exampleimage">
-					{this.props.image}
 				</div>
 				<div className="exampledescription">
 					{this.props.description}
