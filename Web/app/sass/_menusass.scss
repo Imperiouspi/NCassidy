@@ -71,11 +71,9 @@
 .menuItem a {
 	display: block;
 	position: static;
-	margin: 5px;
 	background: #444444;
 	color: #FFFFFF;
 	display: flex;
-	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 50px;
@@ -84,6 +82,9 @@
 }
 
 .menuItem{
+	margin: 5px;
+	height: 50px;
+	width: 100px;
 	&:hover{
 		.circle{
 			transition: opacity 0.3s;
@@ -96,8 +97,8 @@
 .circle{
 	pointer-events: none;
 	position: relative;
-	bottom: 20px;
-	left: 5px;
+	bottom: 15px;
+	left: 0px;
 	@include bottomRadialGradient(#efab34, #444444, 100%);
 
 	width: 100px;
