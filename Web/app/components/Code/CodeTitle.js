@@ -8,9 +8,9 @@ export default class CodeTitle extends React.Component{
 	render(){
 		return(
 			<div id='codetitlebox'>
-				<div id="CodeTitle">Coding Projects</div>
+				<div id="CodeTitle">Computers and Programming</div>
 				<div id="Codesplanation">
-					I have been coding since Grade 10, etc. etc. I do computer things.
+					I took a mandatory computer science class in Grade 10, and I've been exploring software ever since. Here's some stuff I've done!
 				</div>
 			</div>
 		)

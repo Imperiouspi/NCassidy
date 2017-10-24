@@ -1,7 +1,9 @@
 #about{
 	display: flex;
 	flex-direction: column;
-	width: 80vw;
+	justify-content: space-around;
+	align-items: space-around;
+	width: 70vw;
 	margin: 20px;
 }
 

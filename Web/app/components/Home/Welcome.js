@@ -10,15 +10,17 @@ export default class WelcomePage extends React.Component{
 	}
 	render(){
 		return(
-			<div className='page' id="welcomepg">
-				<TopBanner/>
-				<div className="blurb">
-					<WelcomeText/>
+			<div className='page'>
+				<div id="welcomepg">
+					<TopBanner/>
+					<div className="blurb">
+						<WelcomeText/>
+					</div>
+					<div className="divider">
+						
+					</div>
+					<Contact/>
 				</div>
-				<div className="divider">
-					
-				</div>
-				<Contact/>
 			</div>
 		);
 	}
