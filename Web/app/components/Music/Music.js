@@ -15,7 +15,9 @@ export default class Music extends React.Component{
 					</div>
 					<div>
 						<h1>Arrangements</h1>
-						<a href='app/resources/We Know.pdf'>We Know</a>
+						<p>
+							<a href='app/resources/We Know.pdf' target="_blank">We Know</a>
+						</p>
 					</div>
 				</div>
 			</div>

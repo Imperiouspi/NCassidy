@@ -12,7 +12,6 @@ export default class Projects extends React.Component{
 						<h1>CIV 382 Assignment 2</h1>
 						<p>
 							Economic analysis of wind versus natural gas power
-							<a href='app/resources/We Know.pdf'>We Know</a>
 						</p>
 					</div>
 				</div>

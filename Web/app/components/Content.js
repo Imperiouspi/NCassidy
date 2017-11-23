@@ -12,7 +12,7 @@ const Content = () => (
 		<Switch>
 			<Route exact path='/' component={Welcome}/>
 			<Route path='/About' component={About}/>
-			<Route path='/Code' component={Code}/>
+			<Route path='/Coding' component={Code}/>
 			<Route path='/Music' component={Music}/>
 			<Route path='/Projects' component={Projects}/>
 		</Switch>

@@ -32,12 +32,13 @@ export default class About extends React.Component{
 						</p>
 					</div>
 					<div>
-						<h1>Camp</h1>
+						<h1>Leadership</h1>
 						<p>
 							I worked for the <a href='http://ilovecamp.org/'> Cairn Family of Camps </a>for three summers. I was a counsellor for two years, and a resource staff for one. 
 							As a counsellor I cared for and planned activities for a cabin of up to ten children with another counsellor.
 							As a resource staff, I planned and ran sessions for all the cabins at camp, and helped the counsellors engage the children.
-							I ran activities with groups of 10 to almost 100 people.
+							I ran activities with groups of 10 to almost 100 people. <br/>
+							[write about camp introducing me to being a leader]
 						</p>
 					</div>
 				</div>
