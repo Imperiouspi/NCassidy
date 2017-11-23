@@ -16,9 +16,9 @@ export default class Menu extends React.Component{
 				
 				<div id="menu">
 					<MenuItem label='About'/>
-					<MenuItem label='Code'/>
+					<MenuItem label='Coding'/>
 					<MenuItem label='Music'/>
-					<MenuItem label='School'/>
+					<MenuItem label='Projects'/>
 				</div>
 			</div>
 			);

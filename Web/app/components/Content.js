@@ -4,17 +4,17 @@ import Welcome from './Home/Welcome'
 import About from './About/About'
 import Code from './Code/Code'
 import Music from './Music/Music'
-import School from './School/School'
+import Projects from './Projects/Projects'
 
 const Content = () => (
-	<div>
+	<div id='top'>
 		<div id='buffer'/>
 		<Switch>
 			<Route exact path='/' component={Welcome}/>
 			<Route path='/About' component={About}/>
 			<Route path='/Code' component={Code}/>
 			<Route path='/Music' component={Music}/>
-			<Route path='/School' component={School}/>
+			<Route path='/Projects' component={Projects}/>
 		</Switch>
 	</div>
 )

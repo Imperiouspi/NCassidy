@@ -6,7 +6,18 @@ export default class Music extends React.Component{
 	}
 	render(){
 		return(
-			<div>
+			<div className='page'>
+				<div id='music'>
+					<div>
+						<h1>Piano</h1>
+						<p>
+						</p>
+					</div>
+					<div>
+						<h1>Arrangements</h1>
+						<a href='app/resources/We Know.pdf'>We Know</a>
+					</div>
+				</div>
 			</div>
 		)
 	}
