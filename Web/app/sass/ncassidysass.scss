@@ -29,13 +29,13 @@ body, html {
 	margin: 0;
 	padding: 0;
 	background: #FFFFFF;
+	background-image: url("http://individual.utoronto.ca/NCassidy/app/resources/background.jpg");
+	background-size: 100vw;
 	animation: fadein 0.75s;
 	font-size: 100%;
 	color: gray;
 	font-size: 20px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background-image: url("/app/resources/background.JPG");
-	background-size: 100vw;
 	overflow-x:hidden;
 }
 
