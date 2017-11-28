@@ -11,7 +11,7 @@ export default class About extends React.Component{
 					<div>
 						<h1>About Me</h1>
 						<p>
-							<img src={'app/resources/profile.jpg'} alt='profile' id='aboutprofile'/>
+							<img src={'app/resources/profilesmall.jpg'} alt='profile' id='aboutprofile'/>
 							Currently, the most influential activities in my life have been camp and school.
 							Camp gave me an appreciation for community, a space to exercise my creativity, plenty of opportunities to grow as a facilitator and communicator,
 							and a clear purpose in creating engaging programs for children.
@@ -39,7 +39,19 @@ export default class About extends React.Component{
 							As a resource staff, I planned and ran sessions for all the cabins at camp, and helped the counsellors engage the children.
 							I ran activities with groups of 10 to almost 100 people. <br/>
 							[write about camp introducing me to being a leader]
+						</p>	
+					</div>
+					<div>
+						<h1>Extracurriculars</h1>
+						<p>
+							CECA<br/>
+							Siesmic<br/>
+							Archery<br/>
 						</p>
+					</div>
+					<div>
+						<h1>Resume</h1>
+						<a href='app/resources/resume.docx' target='_blank'>Download</a>
 					</div>
 				</div>
 			</div>

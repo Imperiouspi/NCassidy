@@ -8,7 +8,7 @@ export default class Logo extends React.Component{
 	render(){
 		return(
 			<div className="logo">
-				<img src={'app/resources/profile.jpg'} alt='profile' className='profileimg'/>
+				<img src={'app/resources/profilesmall.jpg'} alt='profile' className='profileimg'/>
 				<div className="home">
 					<Link to='/'>Home</Link>
 				</div>
