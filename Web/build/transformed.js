@@ -12204,7 +12204,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 						'p',
 						null,
-						'I was excited to go to University because I wanted to be able to \'think\'. Most questions in high school are just \'follow the formula\'. University gives more open-ended problems where you design the formula.'
+						'I am in the middle of my third year of Civil Engineering. I am completing a business minor to enrich my studies.'
 					)
 				),
 				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -12364,7 +12364,7 @@ class TopBanner extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component 
 		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 			'div',
 			{ className: 'topbanner' },
-			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'app/resources/bannersmall.JPG', alt: 'placeholder', className: 'tbimage' })
+			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { src: 'app/resources/bannersmall.jpg', alt: 'placeholder', className: 'tbimage' })
 		);
 	}
 }
@@ -12684,9 +12684,46 @@ class Projects extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 					'div',
 					null,
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-						'h1',
+						'tr',
 						null,
-						'CME 368 Assignment 2'
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'th',
+							null,
+							'Course'
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'th',
+							null,
+							'Members'
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'th',
+							null,
+							'File'
+						)
+					),
+					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+						'tr',
+						null,
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'td',
+							null,
+							'CME 368'
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'td',
+							null,
+							'5'
+						),
+						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+							'td',
+							null,
+							__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+								'a',
+								{ href: 'app/resources/Assignment2.xlsx' },
+								'Assignment2.xlsx'
+							)
+						)
 					),
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 						'p',
@@ -12697,23 +12734,6 @@ class Projects extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 						'p',
 						null,
 						'The primary analysis, being able to examine the data and draw conclusions for myself, rather than citing sources, made this one of my favourite projects of third year.'
-					),
-					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-						'p',
-						null,
-						'Links to our ',
-						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-							'a',
-							{ href: 'app/resources/Assignment2.xlsx' },
-							'Spreadsheet'
-						),
-						' and our ',
-						__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-							'a',
-							{ href: 'app/resources/CME Final Report.pdf', target: '_blank' },
-							'Final Report'
-						),
-						'.'
 					)
 				),
 				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -12727,7 +12747,7 @@ class Projects extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 					__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
 						'p',
 						null,
-						'Member and connection design of a five story building'
+						'This project included the member and connection design of a five story building.'
 					)
 				),
 				__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -13876,7 +13896,7 @@ exports = module.exports = __webpack_require__(132)(undefined);
 
 
 // module
-exports.push([module.i, ".topMenu {\n  position: fixed;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: flex-start;\n  background: #254170;\n  height: 100px;\n  width: 100vw;\n  -webkit-box-shadow: 0 0px 15px #000000;\n  -moz-box-shadow: 0 0px 15px #000000;\n  box-shadow: 0 0px 15px #000000; }\n\n.logo {\n  background: #444444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px; }\n\n.home a {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px;\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  color: #FFFFFF;\n  font-size: 40px;\n  background-color: transparent;\n  opacity: 0;\n  transition: all 0.5s; }\n  .home a:hover {\n    transition: all 0.3s;\n    background-color: rgba(0, 0, 0, 0.5);\n    opacity: 1; }\n\n.profileimg {\n  height: 100px; }\n\n#MenuInfo {\n  color: #FFFFFF;\n  font-size: 30px;\n  text-align: center;\n  padding: 10px;\n  line-height: 20px; }\n\n#divider {\n  background-color: #FFFFFF;\n  width: 2px;\n  height: 100%; }\n\n#menu {\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 360px;\n  height: 100px; }\n\n.menuItem a {\n  display: block;\n  position: static;\n  background: #444444;\n  color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 50px;\n  width: 100px;\n  text-decoration: none; }\n\n.menuItem {\n  margin: 5px;\n  height: 50px;\n  width: 100px; }\n  .menuItem:hover .circle {\n    transition: opacity 0.3s;\n    opacity: 0.75; }\n\n.circle {\n  pointer-events: none;\n  position: relative;\n  bottom: 15px;\n  left: 0px;\n  background: -moz-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -webkit-gradient(radial, ellipse farthest-side, bottom bottom, 0px, bottom bottom, 100%, color-stop(0%, #efab34), color-stop(100%, #444444));\n  background: -webkit-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -o-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -ms-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background-color: #efab34;\n  width: 100px;\n  height: 15px;\n  opacity: 0;\n  transition: all 0.5s; }\n\n.menuLink {\n  position: absolute;\n  z-index: 10; }\n\n#buffer {\n  height: 100px;\n  width: 100vw; }\n\n#codepage {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  margin: 30px;\n  width: 70vw; }\n\n#codetitlebox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 30px; }\n\n#CodeTitle {\n  text-align: center;\n  font-size: 100px; }\n\n#ExampleProjects {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  align-items: center;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000; }\n\n.CodeExample {\n  display: flex;\n  flex-direction: column;\n  width: 200px;\n  height: 200px;\n  background: #FFFFFF;\n  border: solid 2px black;\n  margin: 30px;\n  -webkit-box-shadow: inset 0px 0px 5px #000000;\n  -moz-box-shadow: inset 0px 0px 5px #000000;\n  box-shadow: inset 0px 0px 5px #000000; }\n\n.exampletitle {\n  color: black;\n  text-align: left;\n  text-decoration: underline;\n  margin: 10px; }\n\n.exampledescription {\n  text-align: left;\n  margin: 10px; }\n\n#about {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#aboutprofile {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n#project {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#projectimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n#music {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#musicimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n@keyframes fadein {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(360deg); } }\n\nbody, html {\n  margin: 0;\n  padding: 0;\n  background: #FFFFFF;\n  background-image: url(\"http://individual.utoronto.ca/NCassidy/app/resources/backgroundsmall.jpg\");\n  background-size: 100vw;\n  animation: fadein 0.75s;\n  font-size: 100%;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif;\n  overflow-x: hidden; }\n\nh1 {\n  color: black; }\n\na {\n  color: #AAAAFF;\n  text-decoration: none; }\n  a:hover {\n    text-decoration: underline; }\n\n#top {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n\n.page {\n  animation: fadein 0.75s;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  background-color: #FFFFFF;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000;\n  width: 90vw;\n  padding-bottom: 30px;\n  margin-bottom: 20px; }\n\n#welcomepg {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: calc(100%-10px); }\n\n.topbanner {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 90vw;\n  height: 30vh; }\n\n.tbimage {\n  height: 25vh; }\n\n.blurb {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center; }\n\n.welcometext {\n  width: 70vw;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif; }\n\n.contact {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  width: 70vw;\n  padding-top: 20px; }\n", ""]);
+exports.push([module.i, ".topMenu {\n  position: fixed;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: flex-start;\n  background: #254170;\n  height: 100px;\n  width: 100vw;\n  -webkit-box-shadow: 0 0px 15px #000000;\n  -moz-box-shadow: 0 0px 15px #000000;\n  box-shadow: 0 0px 15px #000000; }\n\n.logo {\n  background: #444444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px; }\n\n.home a {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px;\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  color: #FFFFFF;\n  font-size: 40px;\n  background-color: transparent;\n  opacity: 0;\n  transition: all 0.5s; }\n  .home a:hover {\n    transition: all 0.3s;\n    background-color: rgba(0, 0, 0, 0.5);\n    opacity: 1; }\n\n.profileimg {\n  height: 100px; }\n\n#MenuInfo {\n  color: #FFFFFF;\n  font-size: 30px;\n  text-align: center;\n  padding: 10px;\n  line-height: 20px; }\n\n#divider {\n  background-color: #FFFFFF;\n  width: 2px;\n  height: 100%; }\n\n#menu {\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 360px;\n  height: 100px; }\n\n.menuItem a {\n  display: block;\n  position: static;\n  background: #444444;\n  color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 50px;\n  width: 100px;\n  text-decoration: none; }\n\n.menuItem {\n  margin: 5px;\n  height: 50px;\n  width: 100px; }\n  .menuItem:hover .circle {\n    transition: opacity 0.3s;\n    opacity: 0.75; }\n\n.circle {\n  pointer-events: none;\n  position: relative;\n  bottom: 15px;\n  left: 0px;\n  background: -moz-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -webkit-gradient(radial, ellipse farthest-side, bottom bottom, 0px, bottom bottom, 100%, color-stop(0%, #efab34), color-stop(100%, #444444));\n  background: -webkit-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -o-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -ms-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background-color: #efab34;\n  width: 100px;\n  height: 15px;\n  opacity: 0;\n  transition: all 0.5s; }\n\n.menuLink {\n  position: absolute;\n  z-index: 10; }\n\n#buffer {\n  height: 100px;\n  width: 100vw; }\n\n#codepage {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  margin: 30px;\n  width: 70vw; }\n\n#codetitlebox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 30px; }\n\n#CodeTitle {\n  text-align: center;\n  font-size: 100px; }\n\n#ExampleProjects {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  align-items: center;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000; }\n\n.CodeExample {\n  display: flex;\n  flex-direction: column;\n  width: 200px;\n  height: 200px;\n  background: #FFFFFF;\n  border: solid 2px black;\n  margin: 30px;\n  -webkit-box-shadow: inset 0px 0px 5px #000000;\n  -moz-box-shadow: inset 0px 0px 5px #000000;\n  box-shadow: inset 0px 0px 5px #000000; }\n\n.exampletitle {\n  color: black;\n  text-align: left;\n  text-decoration: underline;\n  margin: 10px; }\n\n.exampledescription {\n  text-align: left;\n  margin: 10px; }\n\n#about {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#aboutprofile {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n#project {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#projectimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n#music {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#musicimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n@keyframes fadein {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(360deg); } }\n\nbody, html {\n  margin: 0;\n  padding: 0;\n  background: #FFFFFF;\n  background-image: url(\"http://individual.utoronto.ca/NCassidy/app/resources/backgroundsmall.jpg\");\n  background-size: 100vw;\n  animation: fadein 0.75s;\n  font-size: 100%;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif;\n  overflow-x: hidden; }\n\nh1, th {\n  color: black; }\n\na {\n  color: #AAAAFF;\n  text-decoration: none; }\n  a:hover {\n    text-decoration: underline; }\n\ntable {\n  background: #000000; }\n\nth, td {\n  background: #FFFFFF;\n  border: 2px solid black;\n  border-spacing: 1px;\n  padding: 5px;\n  text-align: center; }\n\n#top {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n\n.page {\n  animation: fadein 0.75s;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  background-color: #FFFFFF;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000;\n  width: 90vw;\n  padding-bottom: 30px;\n  margin-bottom: 20px; }\n\n#welcomepg {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: calc(100%-10px); }\n\n.topbanner {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 90vw;\n  height: 30vh; }\n\n.tbimage {\n  height: 25vh; }\n\n.blurb {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center; }\n\n.welcometext {\n  width: 70vw;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif; }\n\n.contact {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  width: 70vw;\n  padding-top: 20px; }\n", ""]);
 
 // exports
 

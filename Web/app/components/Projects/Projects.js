@@ -9,7 +9,16 @@ export default class Projects extends React.Component{
 			<div className='page'>
 				<div id='project'>
 					<div>
-						<h1>CME 368 Assignment 2</h1>
+						<tr>
+							<th>Course</th>
+							<th>Members</th>
+							<th>File</th>
+						</tr>
+						<tr>
+							<td>CME 368</td>
+							<td>5</td>
+							<td><a href='app/resources/Assignment2.xlsx'>Assignment2.xlsx</a></td>
+						</tr>
 						<p>
 							This project included the economic analysis of wind versus natural gas power, with two other students and myself.
 							One of the students and I created a spreadsheet calculating the cash flows and present worth of the two investments. 
@@ -19,14 +28,12 @@ export default class Projects extends React.Component{
 						<p>
 							The primary analysis, being able to examine the data and draw conclusions for myself, rather than citing sources, made this one of my favourite projects of third year. 
 						</p>
-						<p>
-							Links to our <a href='app/resources/Assignment2.xlsx'>Spreadsheet</a> and our <a href='app/resources/CME Final Report.pdf' target='_blank'>Final Report</a>.
-						</p>
 					</div>
 					<div>
 						<h1>CIV 312 Project</h1>
 						<p>
-							Member and connection design of a five story building
+							This project included the member and connection design of a five story building.
+
 						</p>
 					</div>
 					<div>0

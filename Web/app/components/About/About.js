@@ -27,8 +27,8 @@ export default class About extends React.Component{
 							the skills from which have been invaluable throughout my education.
 						</p>
 						<p>
-							I was excited to go to University because I wanted to be able to 'think'. Most questions in high school are just 'follow the formula'.
-							University gives more open-ended problems where you design the formula. 
+							I am in the middle of my third year of Civil Engineering. I am completing a business minor to enrich my studies.
+							
 						</p>
 					</div>
 					<div>
