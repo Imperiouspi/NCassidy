@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjectTable from './ProjectTable'
 
 export default class Projects extends React.Component{
 	constructor(props) {
@@ -9,16 +10,21 @@ export default class Projects extends React.Component{
 			<div className='page'>
 				<div id='project'>
 					<div>
-						<tr>
-							<th>Course</th>
-							<th>Members</th>
-							<th>File</th>
-						</tr>
-						<tr>
-							<td>CME 368</td>
-							<td>5</td>
-							<td><a href='app/resources/Assignment2.xlsx'>Assignment2.xlsx</a></td>
-						</tr>
+						<h1>Economic Analysis Assignment</h1>
+						<table>
+							<tbody>
+							<tr>
+								<th>Course</th>
+								<th>Members</th>
+								<th>Files</th>
+							</tr>
+							<tr>
+								<td>CME 368</td>
+								<td>3</td>
+								<td><a href='app/resources/Assignment2.xlsx'>Assignment2.xlsx</a></td>
+							</tr>
+							</tbody>
+						</table>
 						<p>
 							This project included the economic analysis of wind versus natural gas power, with two other students and myself.
 							One of the students and I created a spreadsheet calculating the cash flows and present worth of the two investments. 
@@ -30,13 +36,14 @@ export default class Projects extends React.Component{
 						</p>
 					</div>
 					<div>
-						<h1>CIV 312 Project</h1>
+						<h1>Design of a Steel Structure</h1>
+						<ProjectTable course='CIV312' members='5'/>
 						<p>
 							This project included the member and connection design of a five story building.
 
 						</p>
 					</div>
-					<div>0
+					<div>
 						<h1>This Website</h1>
 						<p>
 							I made it

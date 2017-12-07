@@ -50,16 +50,14 @@ a{
 		text-decoration: underline;
 	}
 }
-
-table{
-	background: #000000;
-}
-th, td {
-	background: #FFFFFF;
+table, th, td {
     border: 2px solid black;
-    border-spacing: 1px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
+    border-collapse: collapse;
 }
 
 #top {
