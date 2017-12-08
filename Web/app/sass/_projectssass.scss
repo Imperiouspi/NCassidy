@@ -7,8 +7,14 @@
 	margin: 20px;
 }
 
-#projectimage{
-	float: left;
-	margin: 0px 10px 10px 0px;
+.projectimage{
+	float: right;
+	margin: 10px 10px 10px 10px;
 	max-width: 200px;
+	border: 2px solid black;
+	@include box-shadow(0px, 0px, 5px, #000000);
+}
+
+#structure{
+	
 }

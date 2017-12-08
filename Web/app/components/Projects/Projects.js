@@ -30,7 +30,8 @@ export default class Projects extends React.Component{
 							Finally, the last student looked at the effect of other non-financial pressures that might determine the outcome of the project, such as environmental impact. 
 						</p>
 						<p>
-							I particularly enjoyed the analysis opportunity this project presented. Creating the spreadsheet and graphs was 
+							I particularly enjoyed the analysis opportunity this project presented, and the opportunity to examine data and draw my own conclusions. 
+							
 						</p>
 					</div>
 					<div>
@@ -49,7 +50,7 @@ export default class Projects extends React.Component{
 							</tr>
 						</table>
 						<p>
-							Five group members and I collaborated to design a five storey steel structure, seen in figure 1. 
+							<img src={'app/resources/ElevXSmall.png'} alt='Right elevation of the model' className='projectimage' id='structure'/>Five group members and I collaborated to design a five storey steel structure, seen in figure 1. 
 							I modelled the structure using <a href='https://s-frame.com/' target='_blank'>S-frame</a>, and everyone designed three seperate members. 
 							Designing the members required the use of the CISC steel handbook. 
 							Even with the simplifications made by the tables in the book, this can be a tedious process of iteration, so I and one other member, created the excel spreadsheet (attached above), to facilitate this process. 
