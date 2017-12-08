@@ -8,10 +8,12 @@ export default class Contact extends React.Component{
 	render(){
 		return(
 			<div className="contact">
-				Me on the internet:&nbsp;
-				<a href='mailto:noah.cassidy@mail.utoronto.ca'>email,</a>&nbsp;
-				<a href='https://github.com/imperiouspi'>GitHub,</a>&nbsp;
-				<a href='https://www.linkedin.com/in/noah-cassidy-497826146/'>LinkedIn</a>
+			<p>
+				Me on the internet: <br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;- <a href='mailto:noah.cassidy@mail.utoronto.ca'>noah.cassidy@mail.utoronto.ca</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;- <a href='https://github.com/imperiouspi'>GitHub</a><br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;- <a href='https://www.linkedin.com/in/noah-cassidy-497826146/'>LinkedIn</a><br/>
+			</p>
 			</div>
 		);
 	}

@@ -23,7 +23,7 @@ export default class Music extends React.Component{
 						<h1>Arrangements</h1>
 						<p>
 							Often, I would run into a problem playing film music: the one song I wanted to play most was never arranged! 
-							So, I started to doing it myself. I use <a href="" target='_blank'>Finale</a> and transcribe by ear from the orchestral arrangements to piano. 
+							So, I started to doing it myself. I use <a href="https://www.finalemusic.com/" target='_blank'>Finale</a> and transcribe by ear from the orchestral arrangements to piano. 
 							I've arranged songs from Narnia, Harry Potter, Hamilton, and more. Snippets can be found below [investigation into legality of publically hosting personal arrangements ongoing].
 						</p>
 					</div>

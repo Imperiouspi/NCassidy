@@ -7,7 +7,7 @@ export default class TopBanner extends React.Component{
 	render(){
 		return(
 			<div className="topbanner">
-				<img src={'app/resources/bannersmall.jpg'} alt='placeholder' className='tbimage'/>
+				<img src={'app/resources/newbanner.png'} alt='placeholder' className='tbimage'/>
 			</div>
 		);
 	}
