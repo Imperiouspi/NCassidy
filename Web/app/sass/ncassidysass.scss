@@ -31,6 +31,7 @@ body, html {
 	background: #FFFFFF;
 	background-image: url("http://individual.utoronto.ca/NCassidy/app/resources/backgroundsmall.jpg");
 	background-size: 100vw;
+	background-attachment: fixed;
 	animation: fadein 0.75s;
 	font-size: 100%;
 	color: gray;
@@ -47,7 +48,6 @@ a{
 	color: #AAAAFF;
 	text-decoration: none;
 	&:hover{
-		text-decoration: underline;
 	}
 }
 

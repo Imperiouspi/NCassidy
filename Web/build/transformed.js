@@ -559,7 +559,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 var _prodInvariant = __webpack_require__(2);
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var ReactDOMComponentFlags = __webpack_require__(76);
 
 var invariant = __webpack_require__(1);
@@ -1970,6 +1970,64 @@ module.exports = emptyFunction;
 
 /***/ }),
 /* 17 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(229);
+/* unused harmony reexport BrowserRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(230);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(98);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(231);
+/* unused harmony reexport MemoryRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(232);
+/* unused harmony reexport NavLink */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(233);
+/* unused harmony reexport Prompt */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(234);
+/* unused harmony reexport Redirect */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(99);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(64);
+/* unused harmony reexport Router */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(235);
+/* unused harmony reexport StaticRouter */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(236);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(237);
+/* unused harmony reexport matchPath */
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(238);
+/* unused harmony reexport withRouter */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2182,64 +2240,6 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
-
-/***/ }),
-/* 18 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(229);
-/* unused harmony reexport BrowserRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(230);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(98);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(231);
-/* unused harmony reexport MemoryRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(232);
-/* unused harmony reexport NavLink */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(233);
-/* unused harmony reexport Prompt */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(234);
-/* unused harmony reexport Redirect */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(99);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(64);
-/* unused harmony reexport Router */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(235);
-/* unused harmony reexport StaticRouter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(236);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(237);
-/* unused harmony reexport matchPath */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(238);
-/* unused harmony reexport withRouter */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***/ }),
 /* 19 */
@@ -8779,7 +8779,7 @@ module.exports = PooledClass.addPoolingTo(CallbackQueue);
 
 
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var ReactDOMComponentTree = __webpack_require__(6);
 var ReactInstrumentation = __webpack_require__(11);
 
@@ -9516,7 +9516,7 @@ module.exports = ReactInputSelection;
 var _prodInvariant = __webpack_require__(2);
 
 var DOMLazyTree = __webpack_require__(21);
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var React = __webpack_require__(26);
 var ReactBrowserEventEmitter = __webpack_require__(36);
 var ReactCurrentOwner = __webpack_require__(14);
@@ -12049,7 +12049,7 @@ function valueEqual(a, b) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Menu_Menu__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__Content__ = __webpack_require__(114);
 
@@ -12282,7 +12282,7 @@ class About extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Home_Welcome__ = __webpack_require__(117);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__About_About__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__Music_Music__ = __webpack_require__(123);
@@ -12317,7 +12317,7 @@ const Content = () => __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElemen
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 
 
 
@@ -12435,7 +12435,7 @@ class WelcomePage extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Componen
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 
 
 
@@ -12488,7 +12488,7 @@ class WelcomeText extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Componen
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 
 
 
@@ -12562,6 +12562,8 @@ class Menu extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
+
 
 
 class WelcomePage extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
@@ -12570,12 +12572,12 @@ class WelcomePage extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Componen
 	}
 	render() {
 		return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-			"div",
-			{ id: "MenuInfo" },
+			__WEBPACK_IMPORTED_MODULE_1_react_router_dom__["d" /* Link */],
+			{ to: '/', id: 'MenuInfo' },
 			__WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-				"b",
-				{ id: "name" },
-				"Noah Cassidy"
+				'b',
+				{ id: 'name' },
+				'Noah Cassidy'
 			)
 		);
 	}
@@ -12590,7 +12592,7 @@ class WelcomePage extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Componen
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_router_dom__ = __webpack_require__(17);
 
 
 
@@ -12901,7 +12903,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom__ = __webpack_require__(110);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_router_dom__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_App__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_tap_event_plugin__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_tap_event_plugin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_tap_event_plugin__);
@@ -14015,7 +14017,7 @@ exports = module.exports = __webpack_require__(132)(undefined);
 
 
 // module
-exports.push([module.i, ".topMenu {\n  position: fixed;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: flex-start;\n  background: #254170;\n  height: 100px;\n  width: 100vw;\n  -webkit-box-shadow: 0 0px 15px #000000;\n  -moz-box-shadow: 0 0px 15px #000000;\n  box-shadow: 0 0px 15px #000000; }\n\n.logo {\n  background: #444444;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px; }\n\n.home a {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px;\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  color: #FFFFFF;\n  font-size: 40px;\n  background-color: transparent;\n  opacity: 0;\n  transition: all 0.5s; }\n  .home a:hover {\n    transition: all 0.3s;\n    background-color: rgba(0, 0, 0, 0.5);\n    opacity: 1; }\n\n.profileimg {\n  height: 100px; }\n\n#MenuInfo {\n  color: #FFFFFF;\n  font-size: 30px;\n  text-align: center;\n  padding: 10px;\n  line-height: 20px; }\n\n#divider {\n  background-color: #FFFFFF;\n  width: 2px;\n  height: 100%; }\n\n#menu {\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 360px;\n  height: 100px; }\n\n.menuItem a {\n  display: block;\n  position: static;\n  background: #444444;\n  color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 50px;\n  width: 100px;\n  text-decoration: none; }\n\n.menuItem {\n  margin: 5px;\n  height: 50px;\n  width: 100px; }\n  .menuItem:hover .circle {\n    transition: opacity 0.3s;\n    opacity: 0.75; }\n\n.circle {\n  pointer-events: none;\n  position: relative;\n  bottom: 15px;\n  left: 0px;\n  background: -moz-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -webkit-gradient(radial, ellipse farthest-side, bottom bottom, 0px, bottom bottom, 100%, color-stop(0%, #efab34), color-stop(100%, #444444));\n  background: -webkit-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -o-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -ms-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background-color: #efab34;\n  width: 100px;\n  height: 15px;\n  opacity: 0;\n  transition: all 0.5s; }\n\n.menuLink {\n  position: absolute;\n  z-index: 10; }\n\n#buffer {\n  height: 100px;\n  width: 100vw; }\n\n#codepage {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  margin: 30px;\n  width: 70vw; }\n\n#codetitlebox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 30px; }\n\n#CodeTitle {\n  text-align: center;\n  font-size: 100px; }\n\n#ExampleProjects {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  align-items: center;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000; }\n\n.CodeExample {\n  display: flex;\n  flex-direction: column;\n  width: 200px;\n  height: 200px;\n  background: #FFFFFF;\n  border: solid 2px black;\n  margin: 30px;\n  -webkit-box-shadow: inset 0px 0px 5px #000000;\n  -moz-box-shadow: inset 0px 0px 5px #000000;\n  box-shadow: inset 0px 0px 5px #000000; }\n\n.exampletitle {\n  color: black;\n  text-align: left;\n  text-decoration: underline;\n  margin: 10px; }\n\n.exampledescription {\n  text-align: left;\n  margin: 10px; }\n\n#about {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#aboutprofile {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-height: 150px;\n  -webkit-box-shadow: -5px -3px 10px #777777;\n  -moz-box-shadow: -5px -3px 10px #777777;\n  box-shadow: -5px -3px 10px #777777; }\n\n#project {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n.projectimage {\n  float: right;\n  margin: 10px 10px 10px 10px;\n  max-width: 200px;\n  border: 2px solid black;\n  -webkit-box-shadow: 0px 0px 5px #000000;\n  -moz-box-shadow: 0px 0px 5px #000000;\n  box-shadow: 0px 0px 5px #000000; }\n\n#music {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#musicimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n@keyframes fadein {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(360deg); } }\n\nbody, html {\n  margin: 0;\n  padding: 0;\n  background: #FFFFFF;\n  background-image: url(\"http://individual.utoronto.ca/NCassidy/app/resources/backgroundsmall.jpg\");\n  background-size: 100vw;\n  animation: fadein 0.75s;\n  font-size: 100%;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif;\n  overflow-x: hidden; }\n\nh1, th {\n  color: black; }\n\na {\n  color: #AAAAFF;\n  text-decoration: none; }\n  a:hover {\n    text-decoration: underline; }\n\ntable {\n  border: 2px solid black;\n  border-collapse: collapse; }\n\nth, td {\n  background: #FFFFFF;\n  border: 2px solid black;\n  border-spacing: 1px;\n  padding: 5px;\n  text-align: center; }\n\n#top {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n\n.page {\n  animation: fadein 0.75s;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  background-color: #FFFFFF;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000;\n  width: 90vw;\n  padding-bottom: 30px;\n  margin-bottom: 20px; }\n\n#welcomepg {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: calc(100%-10px); }\n\n.topbanner {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 90vw;\n  height: 40vh; }\n\n.tbimage {\n  height: 30vh; }\n\n.blurb {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center; }\n\n.welcometext {\n  width: 70vw;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif; }\n\n.contact {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  width: 70vw;\n  padding-top: 20px; }\n", ""]);
+exports.push([module.i, ".topMenu {\n  position: fixed;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: flex-start;\n  background: #254170;\n  height: 100px;\n  width: 100vw;\n  -webkit-box-shadow: 0 0px 15px #000000;\n  -moz-box-shadow: 0 0px 15px #000000;\n  box-shadow: 0 0px 15px #000000; }\n\n.logo {\n  background: #444444;\n  display: flex;\n  align-items: center;\n  justify-content: flex-start;\n  width: 150px;\n  height: 100px; }\n\n.home a {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 150px;\n  height: 100px;\n  position: absolute;\n  bottom: 0px;\n  left: 0px;\n  color: #FFFFFF;\n  font-size: 40px;\n  background-color: transparent;\n  opacity: 0;\n  transition: all 0.5s; }\n  .home a:hover {\n    transition: all 0.3s;\n    background-color: rgba(0, 0, 0, 0.5);\n    opacity: 1; }\n\n.profileimg {\n  height: 100px; }\n\n.menuLink a {\n  text-decoration: none; }\n\n#MenuInfo {\n  display: flex;\n  justify-content: center;\n  height: 100px;\n  color: #FFFFFF;\n  font-size: 30px;\n  text-align: center;\n  padding-left: 10px;\n  padding-right: 10px; }\n\n#name {\n  color: white;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n#divider {\n  background-color: #FFFFFF;\n  width: 2px;\n  height: 100%; }\n\n#menu {\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  align-items: center;\n  width: 360px;\n  height: 100px; }\n\n.menuItem a {\n  display: block;\n  position: static;\n  background: #444444;\n  color: #FFFFFF;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 50px;\n  width: 100px;\n  text-decoration: none; }\n\n.menuItem {\n  margin: 5px;\n  height: 50px;\n  width: 100px;\n  text-decoration: none; }\n  .menuItem:hover .circle {\n    transition: opacity 0.3s;\n    opacity: 0.75; }\n\n.circle {\n  pointer-events: none;\n  position: relative;\n  bottom: 15px;\n  left: 0px;\n  background: -moz-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -webkit-gradient(radial, ellipse farthest-side, bottom bottom, 0px, bottom bottom, 100%, color-stop(0%, #efab34), color-stop(100%, #444444));\n  background: -webkit-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -o-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: -ms-radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background: radial-gradient(bottom, ellipse farthest-side, #efab34 0%, #444444 100%);\n  background-color: #efab34;\n  width: 100px;\n  height: 15px;\n  opacity: 0;\n  transition: all 0.5s; }\n\n.menuLink {\n  position: absolute;\n  z-index: 10; }\n\n#buffer {\n  height: 100px;\n  width: 100vw; }\n\n#codepage {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  margin: 30px;\n  width: 70vw; }\n\n#codetitlebox {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin: 30px; }\n\n#CodeTitle {\n  text-align: center;\n  font-size: 100px; }\n\n#ExampleProjects {\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: space-around;\n  align-items: center;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000; }\n\n.CodeExample {\n  display: flex;\n  flex-direction: column;\n  width: 200px;\n  height: 200px;\n  background: #FFFFFF;\n  border: solid 2px black;\n  margin: 30px;\n  -webkit-box-shadow: inset 0px 0px 5px #000000;\n  -moz-box-shadow: inset 0px 0px 5px #000000;\n  box-shadow: inset 0px 0px 5px #000000; }\n\n.exampletitle {\n  color: black;\n  text-align: left;\n  text-decoration: underline;\n  margin: 10px; }\n\n.exampledescription {\n  text-align: left;\n  margin: 10px; }\n\n#about {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#aboutprofile {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-height: 150px;\n  -webkit-box-shadow: -5px -3px 10px #777777;\n  -moz-box-shadow: -5px -3px 10px #777777;\n  box-shadow: -5px -3px 10px #777777; }\n\n#project {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n.projectimage {\n  float: right;\n  margin: 10px 10px 10px 10px;\n  max-width: 200px;\n  border: 2px solid black;\n  -webkit-box-shadow: 0px 0px 5px #000000;\n  -moz-box-shadow: 0px 0px 5px #000000;\n  box-shadow: 0px 0px 5px #000000; }\n\n#music {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: space-around;\n  width: 70vw;\n  margin: 20px; }\n\n#musicimage {\n  float: left;\n  margin: 0px 10px 10px 0px;\n  max-width: 200px; }\n\n@keyframes fadein {\n  0% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@keyframes spin {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(360deg); } }\n\nbody, html {\n  margin: 0;\n  padding: 0;\n  background: #FFFFFF;\n  background-image: url(\"http://individual.utoronto.ca/NCassidy/app/resources/backgroundsmall.jpg\");\n  background-size: 100vw;\n  background-attachment: fixed;\n  animation: fadein 0.75s;\n  font-size: 100%;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif;\n  overflow-x: hidden; }\n\nh1, th {\n  color: black; }\n\na {\n  color: #AAAAFF;\n  text-decoration: none; }\n\ntable {\n  border: 2px solid black;\n  border-collapse: collapse; }\n\nth, td {\n  background: #FFFFFF;\n  border: 2px solid black;\n  border-spacing: 1px;\n  padding: 5px;\n  text-align: center; }\n\n#top {\n  display: flex;\n  flex-direction: column;\n  align-items: center; }\n\n.page {\n  animation: fadein 0.75s;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  align-items: center;\n  background-color: #FFFFFF;\n  -webkit-box-shadow: 0px 0px 15px #000000;\n  -moz-box-shadow: 0px 0px 15px #000000;\n  box-shadow: 0px 0px 15px #000000;\n  width: 90vw;\n  padding-bottom: 30px;\n  margin-bottom: 20px; }\n\n#welcomepg {\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  align-items: center;\n  height: calc(100%-10px); }\n\n.topbanner {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 90vw;\n  height: 40vh; }\n\n.tbimage {\n  height: 30vh; }\n\n.blurb {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center; }\n\n.welcometext {\n  width: 70vw;\n  color: gray;\n  font-size: 20px;\n  font-family: \"Trebuchet MS\", Helvetica, sans-serif; }\n\n.contact {\n  display: flex;\n  flex-direction: row;\n  justify-content: flex-start;\n  width: 70vw;\n  padding-top: 20px; }\n", ""]);
 
 // exports
 
@@ -17752,7 +17754,7 @@ module.exports = FallbackCompositionState;
 
 
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 
 var MUST_USE_PROPERTY = DOMProperty.injection.MUST_USE_PROPERTY;
 var HAS_BOOLEAN_VALUE = DOMProperty.injection.HAS_BOOLEAN_VALUE;
@@ -19217,7 +19219,7 @@ var AutoFocusUtils = __webpack_require__(145);
 var CSSPropertyOperations = __webpack_require__(147);
 var DOMLazyTree = __webpack_require__(21);
 var DOMNamespaces = __webpack_require__(49);
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var DOMPropertyOperations = __webpack_require__(75);
 var EventPluginHub = __webpack_require__(22);
 var EventPluginRegistry = __webpack_require__(34);
@@ -20683,7 +20685,7 @@ module.exports = ReactDOMInput;
 
 
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var ReactComponentTreeHook = __webpack_require__(9);
 
 var warning = __webpack_require__(3);
@@ -21652,7 +21654,7 @@ module.exports = {
 
 
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var EventPluginRegistry = __webpack_require__(34);
 var ReactComponentTreeHook = __webpack_require__(9);
 
@@ -22562,7 +22564,7 @@ module.exports = ReactHostOperationHistoryHook;
 
 
 
-var DOMProperty = __webpack_require__(17);
+var DOMProperty = __webpack_require__(18);
 var EventPluginHub = __webpack_require__(22);
 var EventPluginUtils = __webpack_require__(35);
 var ReactComponentEnvironment = __webpack_require__(52);
