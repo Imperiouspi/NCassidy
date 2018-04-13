@@ -28,14 +28,15 @@ export default class About extends React.Component{
 					<div>
 						<h1>Leadership</h1>
 						<p>
-							I worked for the <a href='http://ilovecamp.org/'> Cairn Family of Camps </a>for three summers. I was a counsellor for two years, and a resource staff for one. As a counsellor I cared for and planned activities for a cabin of up to ten children with another counsellor. As a resource staff, I planned and ran sessions for all the cabins at camp, and helped the counsellors engage the children. I ran activities with groups of 10 to almost 100 people. <br/>
-							[write about camp introducing me to being a leader]
-						</p>	
+							I worked for the <a href='http://ilovecamp.org/'> Cairn Family of Camps </a>for three summers. I was a counsellor for two years, and a resource staff for one. As a counsellor I cared for and planned activities for a cabin of up to ten children with another counsellor. As a resource staff, I planned and ran sessions for all the cabins at camp, and helped the counsellors engage the children. I ran activities with groups of 10 to almost 100 people.
+						</p>
+						<p>
+							This year, I joined U of T's Canadian Electrical Contractor's Association student chapter (CECA). We take part in an annual competition to work with another building to reduce its energy use. This year, the theme is "Net Zero Energy". We are working with the Christie Refugee Welcome Center, developing a proposal for an affordable net zero energy solution. 
+						</p>
 					</div>
 					<div>
-						<h1>Extracurriculars</h1>
+						<h1>Past Extracurriculars</h1>
 						<p>
-							CECA<br/>
 							Siesmic<br/>
 							GEDA<br/>
 							Piano<br/>
@@ -45,7 +46,7 @@ export default class About extends React.Component{
 					</div>
 					<div>
 						<h1>Resume</h1>
-						<a href='app/resources/resume.docx' target='_blank'>Download</a>
+						<a href='app/resources/Noah Cassidy - General Resume.pdf' target='_blank'>Download</a>
 					</div>
 				</div>
 			</div>
