@@ -87,6 +87,8 @@ th, td {
 	justify-content: flex-start;
 	align-items: center;
 	height: calc(100%-10px);
+	color:black;
+	text-align: left;
 }
 
 .topbanner {
@@ -117,10 +119,15 @@ th, td {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.contact {
+.quickfacts {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	width: 70vw;
 	padding-top: 20px;
+	color: gray;
+}
+
+.quickfacts td{
+	text-align: left;
 }

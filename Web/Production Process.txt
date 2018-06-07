@@ -1,0 +1,12 @@
+Production Process:
+1. Open cygwin
+2. ncweb to nagivate to directory
+3. npm run start to launch local host
+4. localhost:8080 on browser
+5. Edit
+6. new cygwin window
+7. npm run build to build
+8. open winSCP
+9. login
+10. from build folder, upload index.html and transformed.js
+11. Commit to Git

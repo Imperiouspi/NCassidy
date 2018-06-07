@@ -2,7 +2,7 @@ import React from 'react';
 
 import TopBanner from './TopBanner'
 import WelcomeText from './WelcomeText.js'
-import Contact from './Contact.js'
+import QuickFacts from './QuickFacts.js'
 
 export default class WelcomePage extends React.Component{
 	constructor(props) {
@@ -13,13 +13,15 @@ export default class WelcomePage extends React.Component{
 			<div className='page'>
 				<div id="welcomepg">
 					<TopBanner/>
+					<div className="divider">
+					</div>
+					Summary
+					<QuickFacts/>
+					<div className="divider">
+					</div>
 					<div className="blurb">
 						<WelcomeText/>
 					</div>
-					<div className="divider">
-						
-					</div>
-					<Contact/>
 				</div>
 			</div>
 		);
